@@ -1,31 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<body>
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding_Projects</title>
+<html>
+<head>
+    <meta charset="UTF-8">  
+    <title>Average Test Scores</title>
     <link rel="stylesheet" href="main.css">
-
-    <h1>John's Coding Projects</h1>
-    <img-div>
-        <img src="list_image.png" alt="List" style="width:200px;height:200px;">
-    </img-div>
-    <ul>
-    <li>
-    <a href="https://github.com/jcollins54/Coding-Projects.git">
-    Lab 1 - HTML Review and Git Hosting (this page)</a></li>
-    <li>Lab 2 - Number Tricks</li>
-    <li>Lab 3 - Number Tricks Enhanced</li>
-    <li>Lab 4 - MadLibs</li>
-    <li>Lab 5 - Debugging</li>
-    <li>Lab 6 - Test Score App</li>
-    <li>Lab 7 - Super Hero Cycling Banners</li>
-    <li>Lab 8 - The Changing Caterpillar</li>
-    <li>Lab 9 - Monster Mash</li>
-    <li>Lab 10 - Account Creation From Validation</li>
-    <li>Lab 11 - Alien Sighting Form</li>
-    </ul>   
+</head>
+<body>
+    <script>
+        var Num = Number(prompt("Enter a number.","7"));
+        var p = 9;
+        var n = Num + p;
+        var o = n * 2;
+        var b = o - 4;
+        var k = b / 2;
+        var sum = k - Num;
+        alert("Your final number is 7.");
+        document.write("<h1>Your final answer is "+sum+".</h2>");
+        document.write("Your number is "+Num+".<br>I added 9 to "+Num+" and got "+n+".<br>");
+        document.write("Then multiplied "+n+" by 2 and got "+o+".<br>");
+        document.write("Then subtracted "+o+" by 4 and got "+b+".<br>");
+        document.write("Then divided "+b+" by 2 and got "+k+".<br>")
+        document.write("Then subtracted "+k+" with your original number and got "+sum+".<br>");
+    </script> 
+    <button onClick="window.location.reload();">Play Again?</button>
+    <br><a href="https://jcollins54.github.io/Coding-Projects/">Click to go back to the home page.
+    </a>
 </body>
-</html>
+</html> 
